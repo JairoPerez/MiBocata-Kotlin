@@ -9,55 +9,28 @@
     tools:context=".MainActivity">
 
 
-    <TextView
-        android:id="@+id/mibocata1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/irish_grover"
-        android:text="@string/titulo1"
-        android:textColor="#FF9800"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.248"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
-
-    <TextView
-        android:id="@+id/mibocata2"
-        android:layout_width="wrap_content" 
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/irish_grover"
-        android:text="@string/titulo2"
-        android:textSize="48sp"
-        app:layout_constraintBottom_toTopOf="@+id/view"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/mibocata1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.28" />
-
     <View
         android:id="@+id/view"
         android:layout_width="303dp"
         android:layout_height="259dp"
-        android:alpha="0.85"
+        android:alpha="0.75"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="#D4D4D4"
+        android:backgroundTint="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.733" />
+        app:layout_constraintVertical_bias="0.917" />
 
     <Button
         android:id="@+id/login"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="#FF9800"
+        android:layout_width="170sp"
+        android:layout_height="60sp"
+        android:backgroundTint="#2D2C2C"
         android:fontFamily="@font/irish_grover"
-        android:text="LOGIN"
+        android:text="@string/login"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
@@ -68,11 +41,13 @@
         android:id="@+id/editTextText"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
+        android:backgroundTint="#4CAF50"
         android:ems="10"
-        android:fontFamily="@font/irish_grover"
-        android:hint="Usuario"
+        android:fontFamily="sans-serif"
+        android:hint="@string/usuario"
         android:inputType="text"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
@@ -82,16 +57,28 @@
         android:id="@+id/editTextTextPassword"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
+        android:backgroundTint="#4CAF50"
         android:ems="10"
-        android:fontFamily="@font/irish_grover"
-        android:hint="Contraseña"
+        android:fontFamily="sans-serif"
+        android:hint="@string/contraseña"
         android:inputType="textPassword"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="@+id/view"
         app:layout_constraintEnd_toEndOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
         app:layout_constraintVertical_bias="0.881" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/logoMiBocata" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
