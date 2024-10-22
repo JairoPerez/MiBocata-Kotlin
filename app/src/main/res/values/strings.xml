@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">mibocata</string>
-    <string name="titulo1">MI</string>
-    <string name="titulo2">BOCATA</string>
     <string name="login">LOGIN</string>
     <string name="usuario">Usuario</string>
     <string name="contraseña">Contraseña</string>
+    <string name="desc_bocata_frio">Hoy tenemos bocadillo de atún con tomate</string>
+    <string name="desc_bocata_caliente">Hoy tenemos bocadillo de salchicha blanca y mayonesa</string>
+    <string name="bocata_caliente">BOCADILLO CALIENTE</string>
+    <string name="bocata_frio">BOCADILLO FRIO</string>
 </resources>
