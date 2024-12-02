@@ -37,7 +37,7 @@ class MainActivity2 : AppCompatActivity() {
                 startActivity(intent)
             }
             btn_calendar.setOnClickListener{
-                var intent = Intent(this, MainActivity3::class.java)  //CAMBIAR A LA PANTALLA DEL CALENDARIO MAINACTIVITY4
+                var intent = Intent(this, MainActivity4::class.java)  //CAMBIAR A LA PANTALLA DEL CALENDARIO MAINACTIVITY4
                 startActivity(intent)
             }
 
