@@ -53,10 +53,10 @@
         android:layout_height="113dp"
         app:layout_constraintBottom_toBottomOf="@+id/view4"
         app:layout_constraintEnd_toEndOf="@+id/view4"
-        app:layout_constraintHorizontal_bias="0.932"
+        app:layout_constraintHorizontal_bias="0.946"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.604"
+        app:layout_constraintVertical_bias="0.333"
         app:srcCompat="@drawable/logo_mibocata" />
 
     <TextView
@@ -68,10 +68,10 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="@+id/view9"
         app:layout_constraintTop_toTopOf="@+id/view9"
-        app:layout_constraintVertical_bias="0.035" />
+        app:layout_constraintVertical_bias="0.079" />
 
     <TextView
         android:id="@+id/textView9"
@@ -177,8 +177,8 @@
 
     <View
         android:id="@+id/view10"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="171dp"
+        android:layout_height="135dp"
         android:alpha="0.8"
         android:background="@drawable/rounded_button"
         android:backgroundTint="#2AD70A"
@@ -186,25 +186,53 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.693" />
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="1.0" />
 
     <View
         android:id="@+id/view11"
-        android:layout_width="180dp"
-        android:layout_height="140dp"
+        android:layout_width="161dp"
+        android:layout_height="132dp"
         android:alpha="0.8"
         android:background="@drawable/rounded_button"
         android:backgroundTint="#F44336"
         app:layout_constraintBottom_toTopOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintHorizontal_bias="0.874"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.693" />
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView10"
+        android:layout_width="164dp"
+        android:layout_height="94dp"
+        android:fontFamily="@font/poppins"
+        android:text="bocadillo salchichón"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view10"
+        app:layout_constraintEnd_toEndOf="@+id/view10"
+        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintTop_toTopOf="@+id/view10" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="164dp"
+        android:layout_height="94dp"
+        android:fontFamily="@font/poppins"
+        android:text="bocadillo salchichón"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view10"
+        app:layout_constraintEnd_toEndOf="@+id/view10"
+        app:layout_constraintStart_toStartOf="@+id/view10"
+        app:layout_constraintTop_toTopOf="@+id/view10" />
+
+    <TextView
+        android:id="@+id/textView21"
         android:layout_width="164dp"
         android:layout_height="94dp"
         android:fontFamily="@font/poppins"
@@ -387,9 +415,9 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/view9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.093"
+        app:layout_constraintHorizontal_bias="0.04"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view4"
-        app:layout_constraintVertical_bias="0.102" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
